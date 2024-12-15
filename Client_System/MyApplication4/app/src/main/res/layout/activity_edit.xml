@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 이미지 표시 및 클릭 가능하도록 설정 -->
+        <ImageView
+            android:id="@+id/imgViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Post Image"
+            android:src="@drawable/ic_launcher_background"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 제목 입력 -->
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="제목"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+        <!-- 내용 입력 -->
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="내용"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"/>
+
+        <!-- 저장 및 취소 버튼 -->
+        <Button
+            android:id="@+id/btnSaveEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="저장"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnCancelEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

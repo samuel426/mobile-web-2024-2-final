@@ -1,0 +1,6 @@
+서비스 URL :  https://samuel26.pythonanywhere.com/
+서비스 URL post 확인용: https://samuel26.pythonanywhere.com/admin
+id: admin
+pw:1234
+
+소스코드 git 주소 : https://github.com/samuel426/mobile-web-2024-2-final
